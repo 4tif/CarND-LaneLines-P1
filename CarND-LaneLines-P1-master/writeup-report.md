@@ -17,7 +17,18 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 7 steps:
+My pipeline has a few custom pieces. You will find a new folder for /testResults in the /test_images directory. All processed test_images are sent with an appended file name to the /testResults folder. 
+
+You will also notice 3 images (1.jpg, 2.jpg, and 3.jpg) that I added on my own while creating a test for the challenge video. These are just images that I created to test a theory on changing image contrast and brightness in order to help solve the challenge problem. 
+
+You will also notice that my notebook outputs the results of the cell that runs my initial pipeline. I did this to be able to visually test my pipeline without having to go in the folder each time - it works a lot like our class app which has a button for testing our edits. The final composite images with lines as well as their original file names are displayed when the initial pipeline is run!
+
+Anyway, there is also a bit of code (not very good) that I used to filter out the directory I created in the test_images folder - I guess it also created a new notebook file when I did that so that also needed to be ignored when processing all the test images. 
+
+Aside from this most of the rest of the code is pretty strightforward and just goes step-by-step to process images and draw lines! 
+
+
+My pipeline "process(image)" consists of 7 steps:
 
 1. I converted the images to grayscale, then 
 
@@ -73,9 +84,6 @@ After some of the above ideas implemented on a few screenshots from the challeng
 
 AS you can see it's not perfect, but I think if I implement the full idea above it should be a much better overall solution. Let's see!
 
-
-
-[//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
