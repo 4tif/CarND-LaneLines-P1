@@ -82,9 +82,4 @@ After some of the above ideas implemented on a few screenshots from the challeng
 
 ![pic2](https://i.imgur.com/yfAi7MJ.png)
 
-AS you can see it's not perfect, but I think if I implement the full idea above it should be a much better overall solution. Let's see!
-
-
-![image1](./examples/grayscale.jpg)
-
-
+As you can see, while it's not perfect, I think if I implement the full idea above it should be a much better overall solution. Let's see!
