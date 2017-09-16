@@ -38,15 +38,15 @@ Another shortcoming could be ...
 
 It was so much fun working on this project. However seeing the initial results of my pipeline on the challenge images made me laugh. It was pretty scary to suddenly see red lines everywhere after fairly good results for all other test cases. What I plan on implementing shortly is to create a filter to ignore any lines that have zero or a very shallow slope thereby eliminating all the horizontal lines that are being drawn. Next I plan on to add a new image filter that drastically increases image contrast while lowering image brightness. It is also possibe to selectively remove all blue and green prior to the initial grayscale function. I didn't have enough time at the time of submission, but I have the following somewhat promissing results pointing in the right direction:
 
-[The disaster challenge project image](https://i.imgur.com/P5c9S8F.jpg)
+![The disaster challenge project image](https://i.imgur.com/P5c9S8F.jpg)
 
 
 After some of the above ideas implemented on a few screenshots from the challenge source video:
 
-[pic1](https://i.imgur.com/oYGAfTN.png)
+![pic1](https://i.imgur.com/oYGAfTN.png)
 
 
-[pic2](https://i.imgur.com/yfAi7MJ.png)
+![pic2](https://i.imgur.com/yfAi7MJ.png)
 
 AS you can see it's not perfect, but I think if I implement the full idea above it should be a much better overall solution. Let's see!
 
