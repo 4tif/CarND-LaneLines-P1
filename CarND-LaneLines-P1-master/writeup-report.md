@@ -24,15 +24,17 @@ My pipeline consisted of 7 steps:
 3. After these two intial steps it was time for a Canny Transform to identify various contrasting edge points in the images. 
 4. Masking and using fillPoly() to create a polygon mask to focus on a specific area within the image
 5. Hough transforms and lines were added with the following settings to optimize creating ideal lines:
-    rho = 1
-    theta = np.pi/180
-    threshold = 50
-    min_line_len = 150
-    max_line_gap = 200
-    line_image = np.copy(image)*0
+   * rho = 1
+   * theta = np.pi/180
+   * threshold = 50
+   * min_line_len = 150
+   * max_line_gap = 200
+   * line_image = np.copy(image)*0
 
 6a. Next, we take the "lines" from the Hough Transform and use them to draw actual lines over the image 
+
 6b. Merge and create a composite image between color and line image 
+
 7.  Weighting of image is processed in this step and the final image is returned  
 
 Aside from these steps the draw_lines function was kept fairly stock. It could use adjustments to only allow lines wtih specific slope ranges and that is what I plan on trying next. 
