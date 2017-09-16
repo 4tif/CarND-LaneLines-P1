@@ -41,13 +41,9 @@ My pipeline consisted of 7 steps:
 
 7.  Weighting of image is processed in this step and the final image is returned  
 
-Aside from these steps the draw_lines function was kept fairly stock. It could use adjustments to only allow lines wtih specific slope ranges and that is what I plan on trying next. 
+Aside from these steps the draw_lines function was kept fairly stock and simple. It could use adjustments to only allow lines wtih specific slope ranges and that is what I plan on trying next. Hough lines and their implementation of a simple draw_lines() allowed my image lines to remain fairly well aligned and followed the main road lines. 
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][https://i.imgur.com/wvuSdMA.png]
+![alt text](https://i.imgur.com/wvuSdMA.png)
 
 
 ### 2. Identify potential shortcomings with your current pipeline
