@@ -85,6 +85,6 @@ After some of the above ideas implemented on a few screenshots from the challeng
 AS you can see it's not perfect, but I think if I implement the full idea above it should be a much better overall solution. Let's see!
 
 
-![image1]: ./examples/grayscale.jpg "Grayscale"
+![image1](./examples/grayscale.jpg)
 
 
